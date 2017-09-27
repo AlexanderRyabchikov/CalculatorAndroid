@@ -175,7 +175,8 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/button_border"
                     android:text="1"
-                    android:textAlignment="center"></Button>
+                    android:textAlignment="center">
+                </Button>
                 <Button
                     android:id="@+id/two_button"
                     android:layout_width="match_parent"
@@ -211,18 +212,17 @@
                 >
                 <Button
                     android:id="@+id/zero_button"
-                    android:layout_width="match_parent"
-                    android:layout_weight="13"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="40"
                     android:layout_height="match_parent"
                     android:background="@drawable/button_border"
                     android:text="0"
                     android:textAlignment="center">
-                    
                 </Button>
                 <Button
                     android:id="@+id/point_button"
-                    android:layout_width="match_parent"
-                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="3"
                     android:layout_height="match_parent"
                     android:textAlignment="center"
                     android:background="@drawable/button_border"
@@ -230,8 +230,8 @@
                 </Button>
                 <Button
                     android:id="@+id/result_button"
-                    android:layout_width="match_parent"
-                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="3"
                     android:layout_height="match_parent"
                     android:textAlignment="center"
                     android:background="@drawable/right_button_border"
